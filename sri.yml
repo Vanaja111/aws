@@ -1,5 +1,5 @@
 ---
- - hosts: slave3
+ - hosts: vanaja
    become: true
    tasks:
      - name: create a file
