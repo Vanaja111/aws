@@ -1,8 +1,8 @@
 ---
- - hosts: slave3
+ - hosts: demo
    become: true
    tasks:
-     - name: craete a file
+     - name: create a file
        file:
         path: /root/baba.txt
         state: touch
