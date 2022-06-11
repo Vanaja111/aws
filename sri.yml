@@ -1,9 +1,9 @@
 ---
- - hosts: vanaja
+ - hosts: slave3
    become: true
    tasks:
      - name: create a file
        file:
-        path: /root/ram.txt
-        state: touch
-        mode: 0777
+         path: /root/ram.txt
+         state: touch
+         mode: 0777
